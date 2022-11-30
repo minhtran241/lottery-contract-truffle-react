@@ -31,40 +31,40 @@ You can explore this contract on TESTNET Goerli (GTH) Blockchain Explorer (Ether
 
 ## Install Truffle globally
 
-    ```
-    npm install -g truffle
-    ```
+```sh
+npm install -g truffle
+```
 
 ## Testing
 
 First, make sure Ganache is running
 
-    ```
-    yarn ganache
-    ```
+```sh
+yarn ganache
+```
 
 Compile
 
-    ```
-    yarn compile
-    ```
+```sh
+yarn compile
+```
 
 Run all tests
 
-    ```
-    yarn test
-    ```
+```sh
+yarn test
+```
 
 To run tests in a specific file, run
 
-    ```
-    yarn test [path/to/file]
-    ```
+```sh
+yarn test [path/to/file]
+```
 
 Deploy by connecting to Infura node (specific provider)
 
 **Note:** You have to set up all the environment variables before doing this step
 
-    ```
-    yarn deploy
-    ```
+```sh
+yarn deploy
+```
