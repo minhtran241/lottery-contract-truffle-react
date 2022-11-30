@@ -1,4 +1,4 @@
-<h3 align="center">Truffle and React.js - Lottery Contract</h3> <br>
+<h2 align="center">Truffle and React.js - Lottery Contract</h2> <br>
 <p align="center">
   <img alt="comet" src="https://user-images.githubusercontent.com/943555/35969146-a360d406-0d11-11e8-8224-2efdde6fb888.png" width="120">
 </p>
