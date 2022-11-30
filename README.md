@@ -1,4 +1,4 @@
-<h1 align="center">Truffle and React.js - Lottery Contract</h1> <br>
+<h3 align="center">Truffle and React.js - Lottery Contract</h3> <br>
 <p align="center">
   <img alt="comet" src="https://user-images.githubusercontent.com/943555/35969146-a360d406-0d11-11e8-8224-2efdde6fb888.png" width="120">
 </p>
@@ -18,8 +18,8 @@ How does this differ from the official React Truffle Box?
 - **No ejection** required;
 - **React frontend** is located in its own separate folder (i.e. `/client`);
 - **Babel** is included so you can use ES6 module import statements;
-- Uses **Web3 1.0** with **PromiEvents**
-- Truffle-Contract is no longer a dependency
+- Uses **Truffle 5.6**
+- Uses **Web3 1.6**
 
 If you have Truffle installed, run the following to get started (more detailed instructions below):
 
@@ -31,7 +31,7 @@ You can explore this contract on TESTNET Goerli (GTH) Blockchain Explorer (Ether
 
 ## Install Truffle globally
 
-    ```javascript
+    ```
     npm install -g truffle
     ```
 
@@ -39,32 +39,32 @@ You can explore this contract on TESTNET Goerli (GTH) Blockchain Explorer (Ether
 
 First, make sure Ganache is running
 
-    ```javascript
+    ```
     yarn ganache
     ```
 
 Compile
 
-    ```javascript
+    ```
     yarn compile
     ```
 
 Run all tests
 
-    ```javascript
+    ```
     yarn test
     ```
 
 To run tests in a specific file, run
 
-    ```javascript
+    ```
     yarn test [path/to/file]
     ```
 
 Deploy by connecting to Infura node (specific provider)
 
-**Note:** ⚠️ You have to set up all the environment variables before doing this step`
+**Note:** You have to set up all the environment variables before doing this step
 
-    ```javascript
+    ```
     yarn deploy
     ```
