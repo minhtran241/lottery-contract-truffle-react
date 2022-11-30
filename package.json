@@ -1,0 +1,21 @@
+{
+  "name": "lottery-contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Minh Tran <98200886+minhtran241@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "setup": "git config core.hooksPath .githooks",
+    "compile": "rm -rf './build' && truffle compile",
+    "deploy": "truffle migrate --network goerli",
+    "ganache": "ganache-cli --accounts=15 --deterministic --defaultBalanceEther=1000000 --quiet",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.1.2",
+    "truffle": "^5.6.7"
+  }
+}
