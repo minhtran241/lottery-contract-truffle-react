@@ -1,6 +1,6 @@
-<h2 align="center">Truffle and React.js - Lottery Contract</h2> <br>
+<h2 align="center">Truffle and React.js Template - Lottery Contract</h2> <br>
 <p align="center">
-  <img alt="comet" src="https://user-images.githubusercontent.com/943555/35969146-a360d406-0d11-11e8-8224-2efdde6fb888.png" width="120">
+  <img alt="comet" src="./etherscan.png" width="420">
 </p>
 <p align="center">Rapid Ethereum Dapp Development</p>
 
